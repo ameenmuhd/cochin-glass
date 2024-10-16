@@ -1,0 +1,111 @@
+/* --------------- trade style6 --------------- */
+.tc-trade-style6 {
+  position: relative;
+  padding: 90px 0 180px;
+  overflow: hidden; }
+  .tc-trade-style6 .info {
+    text-align: center; }
+    .tc-trade-style6 .info .rotate-box {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      display: block;
+      margin: 0 auto 30px; }
+      .tc-trade-style6 .info .rotate-box .icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 60px; }
+      .tc-trade-style6 .info .rotate-box .rotate-text {
+        -webkit-animation: rotateText 20s linear infinite;
+        animation: rotateText 20s linear infinite;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: absolute;
+        left: 0;
+        border-radius: 50%; }
+      .tc-trade-style6 .info .rotate-box .rotate-circle svg {
+        width: 220px;
+        height: 220px;
+        fill: var(--color-brown2);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
+
+@-webkit-keyframes rotateText {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+
+@keyframes rotateText {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); } }
+    .tc-trade-style6 .info h2 {
+      font-size: 72px;
+      line-height: 80px;
+      text-transform: uppercase;
+      color: #000;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    .tc-trade-style6 .info p {
+      font-size: 18px;
+      line-height: 30px;
+      color: #666; }
+  .tc-trade-style6 .float-imgs {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease; }
+    .tc-trade-style6 .float-imgs img {
+      position: absolute;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -webkit-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      transition: all 0.1s ease; }
+      .tc-trade-style6 .float-imgs img:nth-of-type(1) {
+        width: 380px;
+        height: 300px;
+        left: 0;
+        top: 3%; }
+      .tc-trade-style6 .float-imgs img:nth-of-type(2) {
+        width: 260px;
+        height: 345px;
+        right: -100px;
+        top: 20%; }
+      .tc-trade-style6 .float-imgs img:nth-of-type(3) {
+        width: 160px;
+        height: 210px;
+        right: calc(4% + 130px);
+        top: 6%; }
+      .tc-trade-style6 .float-imgs img:nth-of-type(4) {
+        width: 250px;
+        height: 290px;
+        left: 17%;
+        bottom: 0; }
+      .tc-trade-style6 .float-imgs img:nth-of-type(5) {
+        width: 220px;
+        height: 170px;
+        right: calc(2% + 250px);
+        bottom: 50px; }
+
+@media screen and (max-width: 991px) {
+  .tc-trade-style6 .info h2 {
+    font-size: 50px;
+    line-height: 60px; }
+  .tc-trade-style6 .float-imgs {
+    display: none; } }

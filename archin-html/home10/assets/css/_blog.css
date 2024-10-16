@@ -1,0 +1,28 @@
+/* --------------- blog style10 --------------- */
+.tc-blog-style10 .blog-card {
+  position: relative;
+  margin-top: 40px; }
+  .tc-blog-style10 .blog-card .img {
+    height: 230px;
+    overflow: hidden;
+    position: relative; }
+  .tc-blog-style10 .blog-card .info {
+    padding-top: 30px; }
+    .tc-blog-style10 .blog-card .info .tags a {
+      font-size: 12px;
+      color: #666;
+      -webkit-padding-end: 30px;
+      padding-inline-end: 30px;
+      text-transform: uppercase;
+      position: relative; }
+      .tc-blog-style10 .blog-card .info .tags a:last-of-type::after {
+        display: none; }
+      .tc-blog-style10 .blog-card .info .tags a::after {
+        position: absolute;
+        content: "";
+        right: 12px;
+        top: calc(50% - 3px);
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #000; }

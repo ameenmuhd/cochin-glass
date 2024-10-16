@@ -1,0 +1,47 @@
+/* --------------- footer style6 --------------- */
+.tc-top-nav-style6 {
+  padding: 15px 0;
+  background-color: var(--color-brown2);
+  color: #fff; }
+  .tc-top-nav-style6 p {
+    font-size: 12px;
+    text-transform: uppercase; }
+  .tc-top-nav-style6 .text-slider {
+    position: relative;
+    overflow: hidden;
+    text-align: center; }
+  .tc-top-nav-style6 .swiper-button-next::after,
+  .tc-top-nav-style6 .swiper-button-prev::after {
+    font-size: 16px;
+    color: #fff; }
+
+/* --------------- navbar style6 --------------- */
+.tc-navbar-style6 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 30px 0;
+  color: #fff;
+  border-bottom: 1px solid #ffffff83; }
+  .tc-navbar-style6 .side_menu_btn {
+    font-size: 18px; }
+  .tc-navbar-style6 a:hover {
+    color: var(--color-brown2); }
+  .tc-navbar-style6 .logo img {
+    height: 30px; }
+  .tc-navbar-style6 .nav-icons a {
+    -webkit-margin-start: 20px;
+    margin-inline-start: 20px; }
+    .tc-navbar-style6 .nav-icons a .num {
+      font-size: 12px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      color: #fff;
+      line-height: 20px;
+      text-align: center;
+      background-color: var(--color-brown2);
+      -webkit-margin-start: 5px;
+      margin-inline-start: 5px; }

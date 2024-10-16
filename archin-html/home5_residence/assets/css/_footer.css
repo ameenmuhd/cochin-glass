@@ -1,0 +1,76 @@
+/* --------------- footer style5 --------------- */
+.tc-footer-style5 {
+  position: relative;
+  padding: 120px 0 200px;
+  background-color: var(--color-brown1);
+  color: #1f2528;
+  border-bottom: 15px solid #fff; }
+  .tc-footer-style5 .title {
+    border-bottom: 1px solid #999;
+    padding: 20px 0; }
+    .tc-footer-style5 .title h2 {
+      font-size: 300px;
+      font-weight: 400;
+      text-transform: uppercase;
+      white-space: nowrap; }
+  .tc-footer-style5 .info {
+    padding-top: 40px; }
+    .tc-footer-style5 .info h4 {
+      font-size: 48px;
+      line-height: 48px;
+      text-transform: uppercase; }
+    .tc-footer-style5 .info p {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #373e43; }
+  .tc-footer-style5 .foot {
+    color: #373e43;
+    text-transform: uppercase; }
+    .tc-footer-style5 .foot .download-link {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .tc-footer-style5 .foot .download-link:hover .icon {
+        background-color: #373737;
+        color: #fff; }
+      .tc-footer-style5 .foot .download-link .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #373e43;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-margin-end: 20px;
+        margin-inline-end: 20px;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        font-size: 18px; }
+  .tc-footer-style5 .social-icons a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #373737;
+    margin: 5px; }
+    .tc-footer-style5 .social-icons a:hover {
+      background-color: #373737;
+      color: #fff; }
+
+@media screen and (max-width: 991px) {
+  .tc-footer-style5 .title h2 {
+    font-size: 20vw; }
+  .tc-footer-style5 .info h4 {
+    font-size: 30px; } }

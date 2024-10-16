@@ -1,0 +1,21 @@
+/* --------------- navbar style4 --------------- */
+.tc-navbar-style4 {
+  position: relative;
+  padding: 60px 5vw 30px; }
+  .tc-navbar-style4 .logo-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .tc-navbar-style4 .logo-side .logo {
+      height: 50px; }
+    .tc-navbar-style4 .logo-side .links a {
+      margin-bottom: 10px; }
+      .tc-navbar-style4 .logo-side .links a:hover {
+        text-decoration: underline; }
+
+@media screen and (max-width: 991px) {
+  .tc-navbar-style4 {
+    padding-top: 30px; } }
